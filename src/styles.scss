@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'bootstrap';
+/* Ocultar o menu mobile no desktop */
+@media (min-width: 768px) {
+  nav.fixed-bottom {
+    display: none;
+  }
+}
+
+/* Ajustar o header para suportar o menu no desktop */
+@media (min-width: 768px) {
+  header {
+    margin-right: 150px;
+  }
+}
+
