@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'bootstrap';
+/* Ocultar o menu mobile no desktop */
+@media (min-width: 768px) {
+  nav.fixed-bottom {
+    display: none;
+  }
+  h2 {
+    font-size: 0.9rem; // Tamanho padrão
+    margin: 2rem 0.5rem; // Espaço abaixo do cabeçalho
+  }
+  .input-group {
+    width: 100%; /* O campo de busca ocupará 80% da largura total */
+  }
+}
+
+/* Ajustar o header para suportar o menu no desktop */
+@media (min-width: 768px) {
+  header {
+    margin-right: 150px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 400;
+  }
+  .input-group {
+    width: 60%; /* O campo de busca ocupará 80% da largura total */
+  }
+  h2 {
+    font-size: 1.2rem; // Tamanho padrão
+    margin: 2rem 0.5rem; // Espaço abaixo do cabeçalho
+  }
+  .service-item {
+    width: 100px; /* Largura maior para desktops */
+  }
+
+  .service-item i {
+    font-size: 2.5rem; /* Ícones maiores */
+  }
+}
+
