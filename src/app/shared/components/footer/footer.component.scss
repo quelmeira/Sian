@@ -1,0 +1,46 @@
+/* SCSS para o Footer */
+footer {
+  background-color: #343a40; // cor de fundo do footer
+  color: #fff; // cor do texto
+  padding: 1rem 0; // Espaçamento superior e inferior
+  .container {
+    padding: 0 15px; // Ajuste o padding interno
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .col-md-4 {
+    flex: 1;
+    padding: 0.5rem; // Ajusta o padding interno da coluna
+  }
+
+  .list-unstyled {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 0.1rem 0;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        color: #f8f9fa; // cor de texto ao passar o mouse
+      }
+    }
+  }
+
+  h5 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+}
