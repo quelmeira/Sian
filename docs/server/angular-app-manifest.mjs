@@ -5,13 +5,13 @@ export default {
   routes: [
   {
     "renderMode": 2,
-    "route": "/Sian"
+    "route": "/"
   }
 ],
   assets: new Map([
-['index.csr.html', {size: 9522, hash: '3e3e1a22ab1795374581242d1452d32459443c3707ecbf9c34736e377d6a427b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)}], 
-['index.server.html', {size: 1289, hash: '116fed02581847f919dde0e4dea2132897a8a30f86a91039554ff31d9d12260a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)}], 
-['index.html', {size: 47006, hash: '96d529d1611e12b192aa36698f8c5583ef3924687124b942f149591bec80863e', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)}], 
+['index.csr.html', {size: 9544, hash: '48cc8d250f3cf2f237f237b745ca4b47ae8f84bec967571e1d4a579e873177d2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)}], 
+['index.server.html', {size: 1311, hash: 'f033f287b27726647285b004ad8a06932fff6059ee54d055c16d752072b4a4d7', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)}], 
+['index.html', {size: 47040, hash: '8fafd3acbf9733c1d654d6f1e454a2aba03bcdfdac1505992e4270610a672ddb', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)}], 
 ['styles-SNJ427TH.css', {size: 483167, hash: 'ctjJbhWxfLo', text: () => import('./assets-chunks/styles-SNJ427TH_css.mjs').then(m => m.default)}]
 ]),
   locale: undefined,

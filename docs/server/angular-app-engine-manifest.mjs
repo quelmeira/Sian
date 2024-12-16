@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/Sian/',
+  basePath: '/',
   entryPoints: new Map([['', () => import('./main.server.mjs')]]),
 };
   
